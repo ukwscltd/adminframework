@@ -1,0 +1,22 @@
+{
+  "name": "ukwscltd/adminframework",
+  "description": "A framework to render administration pages",
+  "type": "library",
+  "require": {
+    "php": ">=8.0.0"
+  },
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Nicholas Ashley",
+      "email": "software@ukwsc.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ukwscltd\\adminframework": "src/"
+    }
+  }
+
+}
